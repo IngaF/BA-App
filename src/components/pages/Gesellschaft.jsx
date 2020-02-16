@@ -33,19 +33,19 @@ export default function Gesellschaft() {
         <Header überschrift1="Digitale Wirtschaft" 
                 überschrift2="und Gesellschaft"
                 boldText="Für viele Menschen in der EU ist die Nutzung des Internets zu einem wichtigen Teil ihres täglichen Lebens geworden."
-                normalText="Heutzutage verbringen Menschen einen erheblichen Teil ihrer Zeit aus verschiedenen Gründen online, sei es bei der Arbeit, in der Schule, zu Hause oder unterwegs. Diese digitale Zusammenfassung bietet leicht verständliche Statistiken zu verschiediedenen digitalen Themen und präsentiert sie anhand von interaktiven Datenvisualisierungen. "
+                normalText="Heutzutage verbringen Menschen einen erheblichen Teil ihrer Zeit aus verschiedenen Gründen online, sei es bei der Arbeit, in der Schule, zu Hause oder unterwegs. Diese digitale Zusammenfassung bietet leicht verständliche Statistiken zu verschiedenen digitalen Themen und präsentiert sie anhand von interaktiven Datenvisualisierungen. "
                 
                 mapchart={
                 <Map></Map>
                 }
         ></Header>
         <Content überschrift="Haushalte - Internetzugangsdichte"
-                 text="Die Internet- und Kommunikationstechnik für die breite Öffentlichkeit hat sich in den letzten Jahren erheblich verbessert. In allen EU-Mitgliedstaaten sind Breitbandnetze die am stärksten verbreitete Form des Internetzugangs. Island, Norwegen und die Niederlande hattem mit 98% im Jahr 2019 den höchsten Anteil an Internetzugängen, während Bulgarien mit 75% die niedrigsten Quoten besaß. "
+                 text="Die Internet- und Kommunikationstechnik für die breite Öffentlichkeit hat sich in den letzten Jahren erheblich verbessert. In allen EU-Mitgliedstaaten sind Breitbandnetze die am stärksten verbreitete Form des Internetzugangs. Island, Norwegen und die Niederlande hatten mit 98% im Jahr 2019 den höchsten Anteil an Internetzugängen, während Bulgarien mit 75% die niedrigsten Quoten besaß. "
                  highlightNumber="79%"
                  erklärungsText="der Personen zwischen 16 und 74 Jahren in der EU gaben an, das Internet häufig (durchschnittlich jeden Tag oder fast jeden Tag) zu benutzen."
         ></Content>
         <Content2 chart={
-            <Zugangsdichte infoBoxAlle="Bulgarien, Rumänien, Zypern, Griechenland, Portugal und Kroatien verzeichneten einen starken der Internetzugangsdichte. Die Haushalte mit Internetzugang stiegen in Bulgarien in den letzten 10 Jahren beispielsweise um 42 Prozentpunkte. Die Niederlande verzeichneten 2019 mit 98% den höchsten Anteil an Breitbandzugängen. In Rumänien wurde ein Anstieg der Haushalte mit Breitbandzugang in den letzten 9 Jahren um 59 Prozentpunkte registriert. 2010 waren es 23% der Haushalte."
+            <Zugangsdichte infoBoxAlle="Bulgarien, Rumänien, Zypern, Griechenland, Portugal und Kroatien verzeichneten einen starken Anstieg der Internetzugangsdichte. Die Haushalte mit Internetzugang stiegen in Bulgarien in den letzten 10 Jahren beispielsweise um 42 Prozentpunkte. Die Niederlande verzeichneten 2019 mit 98% den höchsten Anteil an Breitbandzugängen. In Rumänien wurde ein Anstieg der Haushalte mit Breitbandzugang in den letzten 9 Jahren um 59 Prozentpunkte registriert. 2010 waren es 23% der Haushalte."
                             numberAlle="90%"
                             numberAlleText="der Haushalte in der Europäischen Union haben Zugang zum Internet. 2010 waren es noch 70%"
                             numberBB="89%"
@@ -56,7 +56,7 @@ export default function Gesellschaft() {
         } chart2={
             <MobilNutzung headline="Mobilnutzung"
                           mobilText="Die Möglichkeiten zur Nutzung des Internets sind vielvältig. 
-                          Die mobile Internetzung bezeichnet die Nutzung des Internets an anderen Orten als zu Hause oder 
+                          Die mobile Internetnutzung bezeichnet die Nutzung des Internets an anderen Orten als zu Hause oder 
                           am Arbeitsplatz, zum Beispiel auf tragbaren Computern oder mobilen Geräten über mobile oder drahtlose 
                           Verbindungen."
                           mobilText2="In der Europäischen Union stieg die Anteil von Personen, die angaben das Internet unterwegs zu nutzen, um 39 Prozentpunkte an. 
